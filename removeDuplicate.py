@@ -1,3 +1,4 @@
+#Leetcode Question: 1047. Remove All Adjacent Duplicates In String
 def str_duplicate(st):
     result=""
     for char in st:
