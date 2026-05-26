@@ -2,7 +2,7 @@
 def count_and_say(n):
     result = "1"
 
-    for _ in range(n - 1):
+    for iter in range(n - 1):
         new_result = ""
         count = 1
 

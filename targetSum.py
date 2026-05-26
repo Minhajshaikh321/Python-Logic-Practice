@@ -1,7 +1,7 @@
 #Leetcode Question: 1. Two Sum
 #Input: nums = [2,7,11,15], target = 9
 nums=[2,7,11,15]
-target=13
+target=18
 check={}
 def target_sum(nums,target):
     for i,value in enumerate(nums):
@@ -13,4 +13,4 @@ def target_sum(nums,target):
 #         for j in range(len(nums)):
 #             if nums[i]+nums[j]==target and i!=j:
 #                 return [i,j]
-# print(target_sum(nums,target))
+print(target_sum(nums,target))

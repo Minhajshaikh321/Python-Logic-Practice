@@ -7,7 +7,8 @@ def longestCommonPrefix(strs):
 
     for word in strs[1:]:
         print('word',word)
-        while word[:len(prefix)] != prefix:
+        # while word[:len(prefix)] != prefix:
+        while not word.startswith(prefix):
             print('prefix',prefix,'prefix[-1]',prefix[:-1])
             prefix = prefix[:-1]   # reduce prefix
 

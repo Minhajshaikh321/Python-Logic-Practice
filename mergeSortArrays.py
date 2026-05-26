@@ -14,7 +14,7 @@ def merge_sort(arr1,arr2):
     result.extend(arr1[i:])
     result.extend(arr2[j:])
     return result
-arr1=[1,3,4,5]
+arr1=[1,3,4,5,7]
 arr2=[2,4,6,8,9,9]
 print(merge_sort(arr1,arr2))
 
